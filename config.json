@@ -9,6 +9,7 @@
   "boot": "auto",
   "host_network": true,
   "privileged": ["NET_ADMIN"],
+  "init": "false",
   "options": {
     "ovpnfile": "client.ovpn"
   },
